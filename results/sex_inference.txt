@@ -1,0 +1,5 @@
+Median autosome depth: 7.398
+X / A ratio: 0.485
+Y / A ratio: NA
+Dosage interpretation: XY-like
+Compare with BioSample sex and discuss limitations.
