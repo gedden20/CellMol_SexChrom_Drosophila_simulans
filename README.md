@@ -44,7 +44,7 @@ Screenshots:
 
 ## 3. Galaxy workflow (usegalaxy.org)
 
-**Galaxy history:** [https://galaxy-main.usegalaxy.org/u/ged_den/h/sex-dosage-drosophila-simulans]
+**Galaxy history:** https://galaxy-main.usegalaxy.org/u/ged_den/h/sex-dosage-drosophila-simulans
 
 History name: `Sex_Dosage_Drosophila_simulans`
 
@@ -130,7 +130,7 @@ NC_052525.2,X
 | NC_052524.2 | 4 | A | 1,146,867 | Named autosome. It is very small, but I needed five autosomes |
 | NC_052525.2 | X | X | 22,032,822 | The X is named in the table |
 
-I checked each name against the NCBI chromosome table. The same RefSeq names appear in the `rname` column of the Samtools coverage file. I left out the mitochondrial genome and the 89 unplaced scaffolds. No Y was labelled.
+I checked each name against the NCBI chromosome table. The same RefSeq names appear in the rname column of the Samtools coverage file. The RefSeq version of this assembly has no mitochondrial sequence, so none was in my reference. I left out the 89 unplaced scaffolds. No Y was labelled.
 
 ## 5. R code
 
@@ -243,7 +243,7 @@ I chose Drosophila simulans. Fruit flies have an XX/XY sex chromosome system, wh
 Assembly GCF_016746395.2, assembly BioSample SAMN06473875, WGS run SRR15202879, WGS BioSample SAMN20331739. The donors are not the same. The assembly DNA came from about 600 females of strain w501. The reads came from 30 virgin males of strain wXD1. So my result describes the WGS male pool only.
 
 **3. Which sequences were used as autosomes and as X, and how did you verify them?**
-Autosomes: 2L (NC_052520.2), 2R (NC_052521.2), 3L (NC_052522.2), 3R (NC_052523.2) and 4 (NC_052524.2). X: NC_052525.2. I matched each name to the chromosome table on the NCBI assembly page, where they are listed as chromosomes 2L, 2R, 3L, 3R, 4 and X. The same RefSeq names appear in the Samtools coverage table. I did not use the mitochondrial genome or the 89 unplaced scaffolds.
+Autosomes: 2L (NC_052520.2), 2R (NC_052521.2), 3L (NC_052522.2), 3R (NC_052523.2) and 4 (NC_052524.2). X: NC_052525.2. I matched each name to the chromosome table on the NCBI assembly page, where they are listed as chromosomes 2L, 2R, 3L, 3R, 4 and X. The same RefSeq names appear in the Samtools coverage table. I did not use the 89 unplaced scaffolds. The RefSeq version of this assembly does not include the mitochondrial genome.
 
 **4. What are the median autosomal depth, X:A ratio, and inferred complement?**
 The median autosomal depth is 7.398. The X:A ratio is 0.485. The script calls this XY-like, which means one X copy.
