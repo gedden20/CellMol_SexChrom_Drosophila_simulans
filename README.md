@@ -237,7 +237,7 @@ Compare with BioSample sex and discuss limitations.
 ## 7. Answers to the six questions
 
 **1. What species did you choose, and what evidence supports a diploid XX/XY system?**
-I chose *Drosophila simulans*. Fruit flies have an XY sex system. In NCBI, the chromosome table for the assembly lists the X chromosome by name, together with the autosomes 2L, 2R, 3L, 3R and 4. The assembly is a haploid representation of a diploid fly. [[ADD ONE SOURCE HERE that says D. simulans is diploid with XX/XY sex determination, for example FlyBase, the genome paper, or a textbook]]
+I chose Drosophila simulans. Fruit flies have an XX/XY sex chromosome system, where females have XX chromosomes and males have XY chromosomes. According to Gilbert (2000), diploid Drosophila females have two X chromosomes (XX), while males have one X chromosome (XY). Sex determination in fruit flies depends on the number of X chromosomes relative to the autosomes (X:A ratio), rather than the presence of the Y chromosome. In NCBI, the chromosome table for the assembly lists the X chromosome by name, together with the autosomes 2L, 2R, 3L, 3R, and 4. The assembly is a haploid representation of a diploid fly.
 
 **2. What are your accessions, and are the donors the same?**
 Assembly GCF_016746395.2, assembly BioSample SAMN06473875, WGS run SRR15202879, WGS BioSample SAMN20331739. The donors are not the same. The assembly DNA came from about 600 females of strain w501. The reads came from 30 virgin males of strain wXD1. So my result describes the WGS male pool only.
@@ -279,6 +279,7 @@ No FASTQ, FASTA, BAM or CRAM files are included.
 
 ## 10. References
 
+Gilbert, S. F. (2000). Chromosomal sex determination in Drosophila. In Developmental biology (6th ed.). Sinauer Associates. https://www.ncbi.nlm.nih.gov/books/NBK10025/
 - NCBI Datasets genome: https://www.ncbi.nlm.nih.gov/datasets/genome/
 - NCBI SRA: https://www.ncbi.nlm.nih.gov/sra
 - Galaxy: https://usegalaxy.org
