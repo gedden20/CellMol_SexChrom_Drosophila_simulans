@@ -44,7 +44,7 @@ Screenshots:
 
 ## 3. Galaxy workflow (usegalaxy.org)
 
-**Galaxy history:** [[PASTE YOUR SHARED GALAXY HISTORY LINK HERE]]
+**Galaxy history:** [https://galaxy-main.usegalaxy.org/u/ged_den/h/sex-dosage-drosophila-simulans]
 
 History name: `Sex_Dosage_Drosophila_simulans`
 
